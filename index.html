@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="img/logo.png" alt="Logo" />
+        <p>Sintiya's Page</p>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#my-profile">My Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#message-me">Message Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Hi <span id="welcome-speech"></span>, welcome to my website!</h1>
+        <p>I’m glad you’re here. Take a look at my work and see what I’ve been up to lately.</p>
+        <div>
+          <img src="img/banner2.png" alt="Hero Image" />
+        </div>
+      </section>
+
+      <section id="my-profile">
+        <h1>My Profile</h1>
+
+        <div class="about-me">
+          <img src="img/profile.jpg" alt="Profile Image" />
+          <div class="profile-card">
+            <p>
+              Hello! My name is Sintiya. I am passionate about designing user-friendly and visually appealing digital experiences. With a strong interest in UI/UX design and web development, I enjoy turning ideas into interactive and
+              accessible websites. I’m always eager to explore new tools, learn modern design trends, and continuously improve my skills to create impactful digital products.
+            </p>
+            <p>Contact: <a href="mailto:sintiyaaa73@gmail.com">sintiyaaa73@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>HTML, CSS</li>
+              <li>Teamwork, Communication</li>
+              <li>Brainstorming, Problem Solving</li>
+            </ul>
+          </div>
+          <div class="tools">
+            <h2>Tools</h2>
+            <ul>
+              <li>Figma</li>
+              <li>VSCode</li>
+              <li>Canva</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="https://drive.google.com/file/d/12S1fPvfAusHGcAmuYhB7y-lH4OCstetn/view?usp=sharing" class="download-btn">Download CV</a>
+      </section>
+
+      <section id="projects">
+        <h1>Projects</h1>
+        <p>Here are some of the projects I've worked on that showcase my skills in UI/UX design and digital product development.</p>
+        <div class="project-list">
+          <hr />
+
+          <div class="project-item">
+            <div class="project-img">
+              <img src="img/ranta.png" alt="Project 1" />
+            </div>
+            <div class="project-details">
+              <h2>UI/UX Design: <strong>Ranta</strong></h2>
+              <p>
+                Local Coffee Marketplace App — Ranta is a mobile application that connects coffee farmers, SMEs, and consumers in a single platform. It helps coffee businesses market their products digitally, expand their market reach, and
+                provide personalized coffee recommendations based on user preferences.
+              </p>
+              <a href="https://medium.com/@sintiyaaa73/case-study-ranta-aplikasi-jual-beli-kopi-lokal-9ff016e8d02b" target="_blank">View UX Case Study</a>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="project-item">
+            <div class="project-details">
+              <h2>Web Development: <strong>Personal Portfolio</strong></h2>
+              <p>My personal portfolio website showcases my skills, projects, and experiences as a UI/UX designer and web developer. It features a clean and modern design, with a focus on usability and accessibility.</p>
+              <a href="https://sintiyaaa73.github.io/portfolio2025/" target="_blank">View Portfolio</a>
+            </div>
+            <div class="project-img">
+              <img src="img/portfolio.png" alt="Project 2" />
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="project-item">
+            <div class="project-img">
+              <img src="img/rumtika.png" alt="Project 3" />
+            </div>
+            <div class="project-details">
+              <h2>UI/UX Design: <strong>Rumtika</strong></h2>
+              <p>
+                Digital Learning Management System — Rumtika is a web-based learning platform developed to support digital education in East Java. It helps educators manage courses, materials, and assessments efficiently while offering
+                students an accessible and structured online learning experience. The platform was designed with a user-centered approach to ensure clarity, ease of use, and engagement for both teachers and learners.
+              </p>
+              <a href="https://www.figma.com/design/4boQFpyjTIgmn3AihbUM8x/Rumtika?node-id=1-448&t=Bo1T9ne5OsOgrvAh-1" target="_blank">View Design</a>
+            </div>
+          </div>
+
+          <hr />
+        </div>
+      </section>
+
+      <section id="message-me">
+        <h1>Message Me</h1>
+        <p>Feel free to reach out with any questions.</p>
+        <form class="contact-form">
+          <label for="name">Name</label><br />
+          <input id="name" name="name" type="text" placeholder="Enter your name" required /><br />
+          <label for="email">Email</label><br />
+          <input id="email" name="email" type="email" placeholder="Enter your email" required /><br />
+          <label for="message">Message</label><br />
+          <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea><br />
+          <button type="submit">Send Message</button>
+        </form>
+        <p id="result-form"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Sintiya. All rights reserved.</p>
+    </footer>
+    <!-- Java Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
